@@ -43,10 +43,10 @@ public class BookShelf {
      * @return array of books written by that author, or empty array if nothing was found
      */
     public Book[] getBooksAuthor (String author){
-        return (Book[]) books
+        return books
                 .stream()
                 .filter(b -> b.getAuthor().equals(author))
-                .toArray();
+                .toArray(Book[] :: new);
     }
 
     /** Method that deletes first find Book by object
