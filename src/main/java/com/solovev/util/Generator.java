@@ -29,9 +29,9 @@ public class Generator {
      */
     public static Book generateBook(){
         return new Book(
-                Lists.NAME[generateNum(Lists.NAME.length - 1)],
-                Lists.AUTHOR[generateNum(Lists.AUTHOR.length - 1)],
-                Lists.YEAR[generateNum(Lists.YEAR.length - 1)]
+                Lists.NAME[generateNum(Lists.NAME.length)],
+                Lists.AUTHOR[generateNum(Lists.AUTHOR.length)],
+                Lists.YEAR[generateNum(Lists.YEAR.length)]
         );
     }
     /** method generates BookShelf with random books and random number of them, and random number
