@@ -1,5 +1,6 @@
 # PracticeProjectLibrary
 Small practice project about collections and random generation
+Done in 3.5h
 
 ## Task
 Указания к выполнению задания:
